@@ -21,6 +21,6 @@ let actiona = action[Math.floor(Math.random() * action.length)];
 let whata = what[Math.floor(Math.random() * what.length)];
 let whena = when[Math.floor(Math.random() * when.length)];
 
-let randomItem = [whoa + actiona + whata + whena];
+let excuse = [whoa + actiona + whata + whena];
 
-document.body.innerHTML = randomItem;
+document.getElementById("excuse").innerHTML = excuse;
